@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Muscle Car Game" />
+    <meta
+      property="og:description"
+      content="Experience the thrill of muscle car racing in this simple yet addictive web-based game. With just three road lanes, you can easily swipe or use the keyboard to move your car and avoid obstacles. Play now and become the muscle car champion!"
+    />
+
+    <meta property="og:image:type" content="image/png" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:title" content="Daxi Car Game" />
+    <meta
+      name="twitter:description"
+      content=" car racing in this simple yet addictive web-based game. With just three road lanes, you can easily swipe or use the keyboard to move your car and avoid obstacles. Play now and become the muscle car champion!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://github.com/devlak2001/car-game/blob/main/public/static/images/shareImage.png?raw=true"
+    />
+    <meta name="twitter:image:alt" content="Muscle Car Game" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/static/images/apple-touch-icon.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Roboto+Mono:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Muscle Car Game</title>
+  </head>
+  <body style="opacity: 0">
+    <canvas id="scene"></canvas>
+    <div id="ui">
+      <div class="startScreen">
+        <img src="static/images/startScreenImage.png" alt="" />
+        <button id="startButton"><span>START</span></button>
+      </div>
+      <div class="userScore">
+        <img src="./static/images/star.svg" alt="" />
+        <div>
+          <div class="number">0000</div>
+          <div class="bestScore">Best score: 0000</div>
+        </div>
+      </div>
+      <div class="gameOver">
+        <img src="static/images/gameOverImage.png" alt="" />
+        <button id="restartButton"><span>RESTART</span></button>
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
